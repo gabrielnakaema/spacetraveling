@@ -1,1 +1,61 @@
-// TODO
+.banner {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.postContainer {
+  margin-top: 5rem;
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--heading);
+  }
+}
+
+.postInformation {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  margin-top: 1.5rem;
+  color: var(--info);
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+
+    svg {
+      width: 1.25rem;
+      height: 1.25rem;
+      stroke: var(--info);
+    }
+  }
+}
+
+.postContent {
+  margin-top: 4rem;
+
+  h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--heading);
+  }
+
+  p {
+    margin-top: 2rem;
+  }
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--info);
+  font-weight: 700;
+}
